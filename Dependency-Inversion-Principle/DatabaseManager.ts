@@ -1,4 +1,6 @@
-class DatabaseManager {
+import { IDatabaseConnection } from "./IDatabaseConnection";
+
+export class DatabaseManager {
   private dbConnection: IDatabaseConnection;
 
   constructor(dbConnection: IDatabaseConnection) {

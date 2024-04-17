@@ -1,4 +1,6 @@
-class MongoDBConnection implements IDatabaseConnection {
+import { IDatabaseConnection } from "./IDatabaseConnection";
+
+export class MongoDBConnection implements IDatabaseConnection {
   connect() {
     // Code to connect to MongoDB
     console.log("Connected to MongoDB");

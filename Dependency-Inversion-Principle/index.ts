@@ -1,3 +1,7 @@
+import { DatabaseManager } from "./DatabaseManager";
+import { MongoDBConnection } from "./MongoDBConnection";
+import { PostgreSQLConnection } from "./PostgreSQLConnection";
+
 // Usage
 const mongoDBConnection = new MongoDBConnection();
 const postgreSQLConnection = new PostgreSQLConnection();

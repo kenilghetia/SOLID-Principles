@@ -1,4 +1,6 @@
-class PostgreSQLConnection implements IDatabaseConnection {
+import { IDatabaseConnection } from "./IDatabaseConnection";
+
+export class PostgreSQLConnection implements IDatabaseConnection {
   connect() {
     // Code to connect to PostgreSQL
     console.log("Connected to PostgreSQL");
